@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'product sans';
+    background-color: #F6F6F6;
+    scroll-behavior: smooth;
+}
+
+.minetinfo2 {
+    display: none;
+}
+
+.nav-logo {
+    width: 2em;
+}
+
+header {
+    height: 100vh;
+}
+
+.custom {
+    width: 30em;
+    margin-top: -80%;
+    top: 70vh;
+    margin-bottom: -15em;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: -1;
+}
+
+.red {
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+nav {
+    position: fixed;
+    z-index: 1000;
+    /*  background-color: #fff;
+    opacity: 0.62; */
+    width: 100%;
+    padding: 2em;
+}
+
+.aboutme {
+    margin-top: 35vh;
+    left: 6em;
+    z-index: 5;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.aboutme h5 {
+    color: #7A7A7A;
+    font-size: 1.5em;
+}
+
+a {
+    color: #7a7a7a;
+    text-decoration-color: #CD754F;
+}
+
+a:hover {
+    color: #CD754F;
+    transition: 0.3s;
+}
+
+.aboutme h1 {
+    font-family: 'product sans black';
+    color: #4E4E4E;
+}
+
+.circle {
+    position: absolute;
+    right: 2em;
+    bottom: -5em;
+    width: 10%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.navlogo {
+    padding: 0.3em 0.5em 0.3em 0.5em;
+    border-style: solid;
+    font-family: bebas neue;
+    border-color: #CD754F;
+    font-size: 1.5em;
+}
+
+.required {
+    color: #e35d5d;
+}
+
+nav.scroll {
+    background-color: rgba(255, 255, 255, 0.62);
+    transition: 0.5s;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #F6F6F6;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #183151;
+    outline: none;
+    border-radius: 25px;
+}
+
+::selection {
+    background: #e35d5d;
+    color: white;
+    padding: .5em;
+}
+
+/* Section 2 - Projects */
+
+.bruhblue {
+    width: 30%;
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
+}
+
+.projects h1 {
+    margin-top: 2.5em;
+    font-family: 'product sans black';
+    color: #4E4E4E;
+    margin-bottom: 2em;
+}
+
+.projects .row h3 {
+    color: #4E4E4E;
+}
+
+.projects .row h5 {
+    color: #7A7A7A;
+}
+
+.projects .row {
+    margin-bottom: 2em;
+}
+
+.bruhred {
+    width: 30%;
+    right: 0;
+    position: absolute;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.bruhred {
+    margin-top: -20em;
+}
+
+.projects img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.projects .container {
+    z-index: 5;
+    margin-bottom: 8em;
+}
+
+/* Section 3 - Contact Me */
+
+.contact h1 {
+    font-family: 'product sans black';
+    color: #4E4E4E;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.contact form label, .contact h5, .contact a {
+    color: #4E4E4E;
+}
+
+.contact a:hover {
+    color: #CD754F;
+}
+
+.babyred {
+    width: 30%;
+    margin-bottom: -15em;
+}
+
+.babyblue {
+    width: 30%;
+    margin-top: -5em;
+}
+
+.contact .container {
+    margin-bottom: 2em;
+}
+
+footer {
+    background-color: #183151;
+    color: #AAD7CD;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.social i {
+    transition: 0.3s;
+    color: #4E4E4E;
+}
+
+.social i:hover {
+    color: #AAD7CD;
+    cursor: pointer;
+}
+
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 8em;
+    max-height: 10em;
+}
+
+button {
+    border-style: solid;
+    border-color: #AAD7CD;
+    border-radius: 0;
+    border-width: 0.2em;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #AAD7CD;
+    border-color: #AAD7CD;
+}
+
+/* Responsive - Media Queries */
+
+@media (max-width: 790px) {
+    .aboutme {
+        left: 0;
+    }
+    .projects h1 {
+        text-align: center;
+    }
+    .bruhred, .babyred {
+        width: 40%;
+    }
+    .red {
+        width: 60%;
+    }
+    .circle {
+        display: none;
+    }
+    .contact h1 {
+        text-align: center;
+        margin-top: 2em;
+    }
+    .aboutme {
+        margin-top: 14em;
+    }
+}
+
+@media (max-width: 1097px) {
+    .projects h1 {
+    }
+}
+
+@media (max-width: 240px) {
+    .custom {
+        width: 60%;
+    }
+}
+
+@media (max-width: 550px) {
+    .babyblue, .bruhblue {
+        width: 50%;
+    }
+    .custom {
+        width: 18em;
+    }
+    .projects .minetinfo {
+        display: none;
+    }
+    .minetinfo2 {
+        display: unset;
+        margin-bottom: 2em;
+    }
+    .projects .row {
+        margin-bottom: 5em;
+    }
+    .contact h1 {
+        margin-top: 0;
+    }
+    .projects .container {
+        margin-bottom: 3em;
+    }
+    .bruhred {
+        margin-bottom: -2em;
+    }
+    header {
+        margin-bottom: -8em;
+    }
+}
+
+@media (min-width: 550px) {
+    .margin-bro {
+        display: none;
+    }
+}
+
+/* Navbar */
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.yo {
+    margin-left: 1em;
+}
+
+.link-right {
+    margin-right: 20%;
+}
+
+@media (max-width: 790px) {
+    .link-right {
+        float: none;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+    }
+    .projects h1 {
+        margin-top: 4em;
+    }
+}
+
+input, textarea {
+    font-family: 'product sans';
+}
+
+@media (max-width: 1000px) {
+    .bruhred {
+        margin-top: -10em;
+    }
+}
+
+@media (max-width: 1350px) and (min-width: 800px) {
+    .bruhred {
+        margin-top: -10em;
+    }
+    .babyred {
+        margin-bottom: 1em;
+    }
+}
+
+@media (max-width: 330px) {
+    .aboutme {
+        margin-top: 8em;
+    }
+    header {
+        height: auto;
+    }
+}
+
+@media (max-height: 474px) {
+    header {
+        height: auto;
+    }
+    .custom {
+        margin-top: -2em;
+    }
+    .aboutme {
+        margin-top: 7em;
+    }
+}

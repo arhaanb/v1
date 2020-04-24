@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #F6F6F6;
+}
+
+body {
+    color: #4E4E4E;
+}
+
+li li {
+    color: #7A7A7A;
+}
+
+li span {
+    font-family: 'product sans black';
+}
+
+h5 li a {
+    color: #4E4E4E;
+}
+
+img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+h1 {
+    font-family: 'product sans black';
+    color: #4E4E4E;
+}
+
+nav {
+    padding: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.navlogo {
+    padding: 0.3em 0.5em 0.3em 0.5em;
+    border-style: solid;
+    font-family: 'bebas neue';
+    border-color: #CD754F;
+    font-size: 1.5em;
+}
+
+a {
+    color: #000;
+    text-decoration-color: #CD754F;
+}
+
+a:hover {
+    color: #CD754F;
+    transition: 0.3s;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.yo {
+    margin-left: 1em;
+}
+
+.yo {
+    margin-left: 1em;
+}
+
+.link-right {
+    margin-right: 20%;
+}
+
+ul h6 {
+    margin-left: 2.2em;
+}
+
+footer {
+    background-color: #183151;
+    color: #AAD7CD;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #F6F6F6;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #183151;
+    outline: none;
+    border-radius: 25px;
+}
+
+::selection {
+    background: #e35d5d;
+    color: white;
+    padding: .5em;
+}
+
+.red, .blue {
+    width: 50%;
+    margin: 0;
+    z-index: -1;
+}
+
+.blue {
+    margin-top: -15%;
+    width: 40%;
+    margin-bottom: -0.48386em;
+}
+
+.red {
+    right: 0;
+    position: absolute;
+}
